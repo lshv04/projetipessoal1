@@ -6,7 +6,7 @@
 
 # Projeto pessoal #1
 
-Este projeto é um site de portfólio pessoal desenvolvido com o objetivo de clonar o site da 'Ableton', de acordo com os desafios propostos pelo site [Frontend Practice](https://www.frontendpractice.com/projects/ableton){:target="_blank"}.  
+Este projeto é um site de portfólio pessoal desenvolvido com o objetivo de clonar o site da 'Ableton', de acordo com os desafios propostos pelo site <a href="https://www.frontendpractice.com/projects/ableton" target="_blank">Frontend Practice</a>}.  
 O projeto envolveu desafios significativos na combinação de elementos como flexbox, iframe, imagens, background images, menus, navbars, inputs e footers, exigindo atenção à compatibilidade entre navegadores e ajustes detalhados para manter a estética e a funcionalidade em diferentes tamanhos de tela. Além disso, garantir a performance e acessibilidade do site ao incorporar esses diversos componentes foi crucial para oferecer uma experiência de usuário consistente e eficiente em dispositivos móveis e desktops.
 
 ## ✔️ Técnicas e tecnologias utilizadas
