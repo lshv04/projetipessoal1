@@ -26,7 +26,7 @@ O projeto envolveu desafios significativos na combinação de elementos como fle
 
 ## 📁 Acesso ao projeto  
 
-[Veja o projeto final do curso em funcionamento](https://lshv04.github.io/projetipessoal1/){:target="_blank"}.
+[Veja o projeto final do curso em funcionamento](https://lshv04.github.io/projetipessoal1/).
 
 Neste repositório você tem acesso a todo o material produzido no projeto.
 
