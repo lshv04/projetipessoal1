@@ -431,8 +431,13 @@ select {
         height: 15vh;
     }
 
-    #dropdown2 {
-        width: 25vh;
+     #dropdown2 {
+        width: 15vh;
+        background-color: #eee;
+        border: none;
+    }
+    #dropdown1 {
+        width: 15vh;
         background-color: #eee;
         border: none;
     }
