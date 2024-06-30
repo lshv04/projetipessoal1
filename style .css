@@ -23,9 +23,10 @@ li {
 }
 
 header {
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
-    position: fixed;
     background-color: rgba(255, 255, 255, 0.5);
     height: 4rem;
     width: 100%;
@@ -71,7 +72,53 @@ p {
 
 
 .cont3 {
-    width: 100%;
+    display: flex;
+    padding-top: 8.33333vw;
+    padding-bottom: 8.33333vw;
+    position: relative;
+
+}
+
+.cont3a {
+    width: 58.33333vw;
+    height: 58.33333vw;
+    left: 41.66667vw;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    background-color: #FBFFA7 !important;
+}
+
+.cont3b {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(https://ableton-production.imgix.net/about/photo-1.jpg?fit=crop&h=319&ixjsv=1.1.3&w=319);
+    width: 41.66667vw;
+    height: 41.66667vw;
+    margin-left: 8.33333vw;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.cont3c {
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(https://ableton-production.imgix.net/about/photo-2.jpg?fit=crop&h=191&ixjsv=1.1.3&w=255);
+    width: 33.33333vw;
+    height: 25vw;
+    margin-left: 8.33333vw;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+
 }
 
 .cont4 {
@@ -98,8 +145,69 @@ p {
 }
 
 .cont7 {
+    position: relative;
     width: 100%;
+    height: 65vw;
+    padding: 5vw;
 }
+
+.cont7a {
+    left: 0;
+    height: 100%;
+    width: 55%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    background-color: #B6FFC0;
+
+
+}
+
+.contpic1 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(https://ableton-production.imgix.net/about/photo-3.jpg?dpr=2&fit=crop&h=191&ixjsv=1.1.3&q=50&w=255);
+    width: 33.33333vw;
+    height: 25vw;
+    z-index: 1;
+
+}
+
+.contpic2 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(https://ableton-production.imgix.net/about/photo-4.jpg?dpr=2&fit=crop&h=191&ixjsv=1.1.3&q=50&w=255);
+    margin-top: 30vw;
+    width: 33.33333vw;
+    height: 25vw;
+    z-index: 1;
+
+}
+
+.contpic3 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(https://ableton-production.imgix.net/about/photo-5.jpg?dpr=2&fit=crop&h=319&ixjsv=1.1.3&q=50&w=319);
+    width: 41.66667vw;
+    height: 41.66667vw;
+    right: 10vw;
+    top: 10vw;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
 
 .cont8 {
     padding: 15vh;
@@ -124,8 +232,52 @@ p {
 }
 
 .cont11 {
+    position: relative;
     width: 100%;
+    height: 55vw;
+    padding: 5vw;
+
+
 }
+
+.cont11bg {
+    width: 66.66667vw;
+    height: 100%;
+    left: 16.66667vw;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    background-color: #D5B3FF;
+}
+
+.cont11pic1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(https://ableton-production.imgix.net/about/photo-6-a.jpg?dpr=2&fit=crop&h=191&ixjsv=1.1.3&q=50&w=255);
+    width: 33.33333vw;
+    height: 25vw;
+    top: 12vw;
+    position: absolute;
+    z-index: 1;
+
+
+}
+
+.cont11pic2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(https://ableton-production.imgix.net/about/photo-7.jpg?dpr=2&fit=crop&h=319&ixjsv=1.1.3&q=50&w=319);
+    width: 41.66667vw;
+    height: 41.66667vw;
+    right: 10vw;
+    position: absolute;
+    z-index: 1;
+
+}
+
+
 
 .cont12 {
     padding: 15vh;
@@ -253,7 +405,7 @@ select {
 }
 
 #dropdown2 {
-    width: 35vh;
+    width: 20vh;
     background-color: #eee;
     border: none;
 }
@@ -431,15 +583,15 @@ select {
         height: 15vh;
     }
 
-     #dropdown2 {
-        width: 15vh;
-        background-color: #eee;
-        border: none;
-    }
-    #dropdown1 {
+    #dropdown2 {
         width: 15vh;
         background-color: #eee;
         border: none;
     }
 
+    #dropdown1 {
+        width: 15vh;
+        background-color: #eee;
+        border: none;
+    }
 }
